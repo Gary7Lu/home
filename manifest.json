@@ -2,7 +2,7 @@
   "short_name": "Fitness",
   "name": "Fitness",
   "icons": [{
-    "src":"icons/192.png",
+    "src":"images/logo.png",
     "sizes": "192×192",
     "type": "image/png"
   }],
