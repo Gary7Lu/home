@@ -1,13 +1,13 @@
 {
-　"short_name": "CKedit!",
-　"name": "CKedit!",
-　"icons": [{
-　　"src":"icons/192.png",
-　　"sizes": "192×192",
-　　"type": "image/png"
-　　}],
-　"start_url": "http://127.0.0.1:8887/",
-　"background_color": "#000",
-　"theme_color": "#536878",
-　"display": "standalone"
+  "short_name": "Fitness",
+  "name": "Fitness",
+  "icons": [{
+    "src":"icons/192.png",
+    "sizes": "192×192",
+    "type": "image/png"
+  }],
+  "start_url": "https://gary7lu.github.io/home/index.html",
+  "background_color": "#000",
+  "theme_color": "#536878",
+  "display": "standalone"
 }
