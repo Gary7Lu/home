@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Fitness</title>
+	<meta charset="UTF-8">
+	<link rel="manifest" href="manifest.json">
+	<meta name="description" content="Fitness ">
+	<meta name="keywords" content="fitness, html">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="css/owl.carousel.min.css"/>
+	<link rel="stylesheet" href="css/flaticon.css"/>
+	<link rel="stylesheet" href="css/slicknav.min.css"/>
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css"/>
+
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body>
+	<!-- Page Preloder -->
+	<div id="preloder">
+		<div class="loader"></div>
+	</div>
+
+	<!-- Header section -->
+	<header class="header-section">
+		<a href="home.html" class="site-logo">
+			<img src="img/home.png" alt="">
+		</a>
+		<ul class="main-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="about.html">About</a></li>
+			<li><a href="classes.html">Classes</a></li>
+			<li><a href="blog.html">News</a></li>
+			<li><a class="active" href="login.html">Login</a></li>
+			<li class="header-right">
+				<div class="hr-box">
+					<img src="img/location-icon.png" alt="">
+					<h6></h6>
+				</div>
+			</li>
+		</ul>
+	</header>
+	<div class="clearfix"></div>
+	<!-- Header section end -->
+  
+  <!--register section-->
+  
+  <div class="user_profile">
+    <h1>account</h1>
+  </div>
+
+  <div class="container">
+    <label for="account"><b>Account</b></label>
+    <input id="user_account" type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input id="user_password" type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="name"><b>Name</b></label>
+    <input id="user_name" type="text" placeholder="Enter Username" name="username" required>
+
+    <label for="height"><b>Height</b></label>
+    <input id="user_height" type="text" placeholder="Enter Height" name="userheight" required>
+
+    <label for="weight"><b>Weight</b></label>
+    <input id="user_weight" type="text" placeholder="Enter Weight" name="userweight" required>
+
+    <label for="classNo"><b>Class No.</b></label>
+    <input id="user_class" type="text" placeholder="Enter Class No." name="userclass" required>
+        
+    <button onclick="submit()">submit</button>
+
+    <p id="message"></p>
+  </div>
+
+  <!--register section end-->
+
+	<!-- Footer section -->
+	<!-- Footer section end -->
+									
+	<!--====== Javascripts & Jquery ======-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.slicknav.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/circle-progress.min.js"></script>
+	<script src="js/main.js"></script>
+	<script>
+	// CODELAB: Register service worker.
+	if ('serviceWorker' in navigator) {
+  		window.addEventListener('load', () => {
+    		navigator.serviceWorker.register('/service-worker.js')
+        	.then((reg) => {
+          	console.log('Service worker registered.', reg);
+        	});
+  	});
+	}
+	</script>
+	</body>
+</html>
