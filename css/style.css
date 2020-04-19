@@ -1264,7 +1264,16 @@ Contact page
 	left: 0;
 	top: 0;
 }
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #accffe; }
 
+.inner {
+  position: relative;
+  width: 435px; }
 /* ----------------
 Responsive
  ---------------------*/
