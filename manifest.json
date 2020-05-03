@@ -1,4 +1,4 @@
-{
+/*{
   "short_name": "Fitness",
   "name": "Fitness",
   "icons": [{
@@ -10,4 +10,16 @@
   "background_color": "#000",
   "theme_color": "#536878",
   "display": "standalone"
+}
+*/
+
+{
+	"name" : "Fitness APP",
+	"short_name" : "Fitness",
+	"description" : "A research about fitness",
+	"start_url" : "https://gary7lu.github.io/home/index.html",
+	"scope" : "Fitness APP",
+	"display" : "fullscreen",
+	"orientation" : "portrait",
+	"lang" : "English"
 }
