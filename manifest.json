@@ -18,7 +18,6 @@
 	"short_name" : "Fitness",
 	"description" : "A research about fitness",
 	"start_url" : "https://gary7lu.github.io/home/index.html",
-	"scope" : "Fitness APP",
 	"display" : "fullscreen",
 	"orientation" : "portrait",
 	"lang" : "English"
