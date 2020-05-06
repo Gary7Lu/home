@@ -1,0 +1,126 @@
+#class{
+	margin: 0;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/qV8Op6F.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 70px;
+	font-size: 20px;
+	width:200px;
+}
+#body_weight{
+	margin: 0;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/3drcfE4.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	font-size: 20px;
+	width:200px;
+	
+}
+#height{
+	margin: 0;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/EH8zThJ.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	font-size: 20px;
+	width:200px;
+}
+#step_count{
+	margin: 0;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/DF9dpKc.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	font-size: 20px;
+	width:200px;
+}
+#Heartbeat{
+	margin: 0px;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/p4apIMl.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	font-size: 20px;
+	width:200px;
+}
+#Calories{
+	margin: 0px;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/ThiWFfc.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	font-size: 20px;
+	width:200px;
+	
+}
+#Distance{
+	margin: 0px;
+	padding: 67px 0 36px 84px;
+	list-style: none;
+	background-image: url("https://imgur.com/XRnD5lu.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 40px;
+	font-size: 20px;
+	width:200px;
+}
+
+#text{
+	font-size: 50px;
+	color: #00ced1;
+}
+body {
+	background-image: url("https://imgur.com/vdMC3YP.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.page {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 50%;
+}
+.page:hover {
+    background-color: #777;
+}
+.tabcontent {
+    color: black;
+    display: none;
+    height: 100%;
+}
+
+.profile_container{
+    width: 50%;
+    font-size: 30px;
+    position: absolute;
+    top: 353px;
+    left: 40%;
+}
+.endl h2{
+    display: inline;
+}
+.endl p{
+    display: inline;
+}
+.endl{
+    line-height: 80px;
+}
