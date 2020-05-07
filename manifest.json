@@ -1,4 +1,4 @@
-/*{
+{
   "short_name": "Fitness",
   "name": "Fitness",
   "icons": [{
@@ -11,8 +11,8 @@
   "theme_color": "#536878",
   "display": "standalone"
 }
-*/
 
+/*
 {
 	"name" : "Fitness APP",
 	"short_name" : "Fitness",
@@ -22,3 +22,4 @@
 	"orientation" : "portrait",
 	"lang" : "English"
 }
+*/
